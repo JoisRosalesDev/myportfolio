@@ -36,7 +36,7 @@ const Services = () => {
         {/* Contenedor de las cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full text-bunker-50">
           {/* Card 1: User Experience */}
-          <div className="flex flex-col items-center bg-bunker-900 rounded-2xl p-6 shadow-lg shadow-bunker-800">
+          <div className="flex flex-col items-center bg-bunker-800 rounded-2xl p-6 shadow-lg shadow-bunker-600">
             {/* Icono dentro de la card */}
             <div className="flex justify-center">
               <svg
@@ -65,7 +65,7 @@ const Services = () => {
           </div>
 
           {/* Card 2: Web Development */}
-          <div className="flex flex-col items-center bg-bunker-900 rounded-2xl p-6 shadow-lg shadow-bunker-800">
+          <div className="flex flex-col items-center bg-bunker-800 rounded-2xl p-6 shadow-lg shadow-bunker-600">
             {/* Icono dentro de la card */}
             <div className="flex justify-center">
               <svg
@@ -92,7 +92,7 @@ const Services = () => {
           </div>
 
           {/* Card 3: Responsive */}
-          <div className="flex flex-col items-center bg-bunker-900 rounded-2xl p-6 shadow-lg shadow-bunker-800">
+          <div className="flex flex-col items-center bg-bunker-800 rounded-2xl p-6 shadow-lg shadow-bunker-600">
             {/* Icono dentro de la card */}
             <div className="flex justify-center">
               <svg

@@ -1,5 +1,9 @@
 const Footer = () => {
-    return <footer className="p-6 bg-marshland-900 text-marshland-50 text-center">© 2024 Jois Rosales. All rights reserved.</footer>;
-  };
-  
-  export default Footer;
+  return (
+    <footer className="p-6 bg-bunker-950 text-bunker-50 text-center">
+      © 2025 Jois Rosales. All rights reserved.
+    </footer>
+  );
+};
+
+export default Footer;
