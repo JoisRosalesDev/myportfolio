@@ -5,7 +5,7 @@ const Hero = () => {
       className="w-full h-auto min-h-[700px] bg-bunker-950 flex flex-col justify-center items-center"
     >
       <h1 className="text-4xl md:text-6xl lg:text-8xl font-bold text-bunker-50">
-        Hi, I&apos;m Jois
+        Hi, I&apos;m Jois (He/Him)
       </h1>
       <p className="text-xl md:text-2xl lg:text-4xl text-bunker-200">
         A Front-end developer from Chile
