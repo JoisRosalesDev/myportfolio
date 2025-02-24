@@ -36,7 +36,7 @@ const AboutMe = () => {
           <div className="flex flex-col items-center w-full md:w-1/3">
             {/* Foto de perfil */}
             <img
-              src="/src/assets/joispfp.png" // Cambia esta ruta por la de tu foto
+              src="/public/joispfp.png" // Cambia esta ruta por la de tu foto
               alt="Profile Picture"
               className="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover border-4 border-bunker-500 shadow-lg"
             />
