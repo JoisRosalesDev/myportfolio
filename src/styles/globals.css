@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+    --color-bunker-50: #f0fafb;
+    --color-bunker-100: #d9f3f4;
+    --color-bunker-200: #b7e7ea;
+    --color-bunker-300: #85d4db;
+    --color-bunker-400: #4cb8c4;
+    --color-bunker-500: #319ca9;
+    --color-bunker-600: #2b7e8f;
+    --color-bunker-700: #296875;
+    --color-bunker-800: #295661;
+    --color-bunker-900: #264953;
+    --color-bunker-950: #071013;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+.primary-button {
+    background: rgb(43, 126, 143);
+    background: linear-gradient(90deg, rgba(43, 126, 143, 1) 0%, rgba(41, 104, 117, 1) 35%);
+    border-width: 1px;
+    border-color: #295661;
+}
+
+.primary-button:hover {
+    background: rgb(41, 104, 117);
+    background: linear-gradient(90deg, rgba(41, 104, 117, 1) 0%, rgba(41, 86, 97, 1) 35%);
+    border-width: 1px;
+    border-color: #264953;
+}
