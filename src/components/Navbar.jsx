@@ -37,18 +37,17 @@ const Navbar = () => {
     { href: "#", label: "About" },
     { href: "#", label: "Services" },
     { href: "#", label: "Pricing" },
-    { href: "#", label: "Contact" },
   ];
 
   return (
     <header className="text-white">
-      <nav className="fixed top-0 left-0 right-0 z-50 m-6 rounded-xl bg-gray-500/10 backdrop-blur-md">
+      <nav className="fixed top-0 left-0 right-0 z-50 m-6 rounded-xl bg-gray-500/10 backdrop-blur-md mix-blend-difference">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a
             href="#"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
-            <span className="self-center text-2xl font-semibold  ">
+            <span className="self-center text-2xl font-semibold">
               My Portfolio
             </span>
           </a>
@@ -83,7 +82,7 @@ const Navbar = () => {
             } w-full md:block md:w-auto`}
             id="navbar-default"
           >
-            <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 ">
+            <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
               {navItems.map((item) => (
                 <li key={item.label}>
                   <a
@@ -94,6 +93,15 @@ const Navbar = () => {
                   </a>
                 </li>
               ))}
+              <li>
+                <a
+                  href="/src/assets/cv-jois.pdf"
+                  download
+                  className="block py-2 px-3 rounded-sm bg-blue-500 text-white hover:bg-blue-600 md:border-0"
+                >
+                  My CV
+                </a>
+              </li>
             </ul>
           </div>
         </div>

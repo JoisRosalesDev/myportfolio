@@ -59,7 +59,7 @@ const ContactMe = () => {
             style={{
               fill: "#296875",
               width: "125%",
-              height: "75px"
+              height: "75px",
             }}
           >
             <path d="M1200 120L0 16.48V0h1200v120z" />
@@ -71,7 +71,7 @@ const ContactMe = () => {
       <div className="mx-auto max-w-4xl px-8 w-full">
         {/* Título de la sección */}
         <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-center text-bunker-950 italic mb-16">
-          Contact Me
+          Send me an Email
         </h1>
 
         {/* Formulario de contacto */}
