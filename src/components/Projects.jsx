@@ -31,18 +31,18 @@ const Projects = () => {
           <div className="flex flex-col rounded-2xl bg-bunker-100 shadow-lg">
             <figure className="flex justify-center items-center rounded-t-2xl">
               <img
-                src="https://tailwind-generator.b-cdn.net/images/card-generator/tailwind-card-generator-card-preview.png"
+                src="/src/assets/portfolio-cover.webp"
                 alt="Card Preview"
                 className="rounded-t-2xl w-full h-48 object-cover"
               />
             </figure>
             <div className="flex flex-col p-6">
               <h2 className="text-2xl font-bold text-bunker-950 pb-4">
-                Generator
+                First Portfolio
               </h2>
               <p className="text-lg text-bunker-700">
-                Leverage a graphical editor to create, design and customize
-                beautiful web components.
+                A much older and not so modern version of my portfolio, but it
+                served as inspiration for more projects.
               </p>
               {/* Etiquetas de tecnologías */}
               <div className="flex flex-wrap gap-2 mt-4">
@@ -50,7 +50,10 @@ const Projects = () => {
                   Tailwind CSS
                 </span>
                 <span className="px-3 py-1 bg-bunker-500 text-bunker-50 rounded-full text-sm">
-                  React
+                  HTML
+                </span>
+                <span className="px-3 py-1 bg-bunker-500 text-bunker-50 rounded-full text-sm">
+                  JavaScript
                 </span>
                 <span className="px-3 py-1 bg-bunker-500 text-bunker-50 rounded-full text-sm">
                   Node.js
@@ -58,9 +61,14 @@ const Projects = () => {
               </div>
               {/* Botón */}
               <div className="flex justify-end pt-6">
-                <button className="bg-bunker-600 text-bunker-50 w-full font-bold text-base p-3 rounded-lg hover:bg-bunker-700 active:scale-95 transition-transform transform">
-                  Try it out!
-                </button>
+                <a
+                  href="https://joisrosalesdev.github.io/JoisPortfolio/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-bunker-600 text-bunker-50 w-full font-bold text-base p-3 rounded-lg text-center hover:bg-bunker-700 active:scale-95 transition-transform transform"
+                >
+                  Visit Site
+                </a>
               </div>
             </div>
           </div>
@@ -69,36 +77,45 @@ const Projects = () => {
           <div className="flex flex-col rounded-2xl bg-bunker-100 shadow-lg">
             <figure className="flex justify-center items-center rounded-t-2xl">
               <img
-                src="https://tailwind-generator.b-cdn.net/images/card-generator/tailwind-card-generator-card-preview.png"
+                src="/src/assets/mycondition-cover.webp"
                 alt="Card Preview"
                 className="rounded-t-2xl w-full h-48 object-cover"
               />
             </figure>
             <div className="flex flex-col p-6">
               <h2 className="text-2xl font-bold text-bunker-950 pb-4">
-                E-commerce
+                My Condition
               </h2>
               <p className="text-lg text-bunker-700">
-                A fully functional e-commerce platform with a modern design and
-                seamless user experience.
+                A health calculator that assesses your BMI, determines if you
+                are overweight and suggests Omnilife products based on your
+                goal.
               </p>
               {/* Etiquetas de tecnologías */}
               <div className="flex flex-wrap gap-2 mt-4">
                 <span className="px-3 py-1 bg-bunker-500 text-bunker-50 rounded-full text-sm">
-                  Next.js
+                  Tailwind CSS
                 </span>
                 <span className="px-3 py-1 bg-bunker-500 text-bunker-50 rounded-full text-sm">
-                  Stripe
+                  HTML
                 </span>
                 <span className="px-3 py-1 bg-bunker-500 text-bunker-50 rounded-full text-sm">
-                  MongoDB
+                  JavaScript
+                </span>
+                <span className="px-3 py-1 bg-bunker-500 text-bunker-50 rounded-full text-sm">
+                  Node.js
                 </span>
               </div>
               {/* Botón */}
               <div className="flex justify-end pt-6">
-                <button className="bg-bunker-600 text-bunker-50 w-full font-bold text-base p-3 rounded-lg hover:bg-bunker-700 active:scale-95 transition-transform transform">
+                <a
+                  href="https://joisrosalesdev.github.io/mycondition/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-bunker-600 text-bunker-50 w-full font-bold text-base p-3 rounded-lg text-center hover:bg-bunker-700 active:scale-95 transition-transform transform"
+                >
                   Visit Site
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -107,18 +124,18 @@ const Projects = () => {
           <div className="flex flex-col rounded-2xl bg-bunker-100 shadow-lg">
             <figure className="flex justify-center items-center rounded-t-2xl">
               <img
-                src="https://tailwind-generator.b-cdn.net/images/card-generator/tailwind-card-generator-card-preview.png"
+                src="/src/assets/yeezyverse-cover.webp"
                 alt="Card Preview"
                 className="rounded-t-2xl w-full h-48 object-cover"
               />
             </figure>
             <div className="flex flex-col p-6">
               <h2 className="text-2xl font-bold text-bunker-950 pb-4">
-                Portfolio
+                YeezyVerse
               </h2>
               <p className="text-lg text-bunker-700">
-                A personal portfolio website showcasing projects, skills, and
-                contact information.
+                A landing page strategically designed to help fans learn more
+                about Kanye West and his career in music and fashion.
               </p>
               {/* Etiquetas de tecnologías */}
               <div className="flex flex-wrap gap-2 mt-4">
@@ -129,14 +146,28 @@ const Projects = () => {
                   Tailwind CSS
                 </span>
                 <span className="px-3 py-1 bg-bunker-500 text-bunker-50 rounded-full text-sm">
-                  Vite
+                  Next.js
+                </span>
+                <span className="px-3 py-1 bg-bunker-500 text-bunker-50 rounded-full text-sm">
+                  HTML
+                </span>
+                <span className="px-3 py-1 bg-bunker-500 text-bunker-50 rounded-full text-sm">
+                  JavaScript
+                </span>
+                <span className="px-3 py-1 bg-bunker-500 text-bunker-50 rounded-full text-sm">
+                  TypeScript
                 </span>
               </div>
               {/* Botón */}
               <div className="flex justify-end pt-6">
-                <button className="bg-bunker-600 text-bunker-50 w-full font-bold text-base p-3 rounded-lg hover:bg-bunker-700 active:scale-95 transition-transform transform">
-                  View Portfolio
-                </button>
+                <a
+                  href="https://yeezyverse-jois.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-bunker-600 text-bunker-50 w-full font-bold text-base p-3 rounded-lg text-center hover:bg-bunker-700 active:scale-95 transition-transform transform"
+                >
+                  Visit Site
+                </a>
               </div>
             </div>
           </div>

@@ -38,7 +38,7 @@ const AboutMe = () => {
             <img
               src="/joispfp.webp" // Cambia esta ruta por la de tu foto
               alt="Profile Picture"
-              className="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover border-4 border-bunker-500 shadow-lg"
+              className="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover border-4 bg-bunker-600 border-bunker-500 shadow-lg"
             />
 
             {/* Botones de descarga */}

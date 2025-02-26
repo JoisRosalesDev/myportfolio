@@ -183,7 +183,7 @@ const ContactMe = () => {
             </svg>
           </a>
           <a
-            href="https://linkedin.com/in/joisrosafer"
+            href="www.linkedin.com/in/jois-rosales-fernández-260baa24b"
             target="_blank"
             rel="noopener noreferrer"
             className="text-bunker-950 hover:text-bunker-600 transition-colors"
