@@ -1,6 +1,6 @@
 const AboutMe = () => {
   return (
-    <section id="about" className="relative bg-bunker-700 pt-24 pb-16">
+    <section id="AboutMe" className="relative bg-bunker-700 pt-24 pb-16">
       {/* Page Divider en la parte superior */}
       <div
         className="absolute top-0 left-0 w-full"

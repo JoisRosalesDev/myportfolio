@@ -1,6 +1,6 @@
 const Projects = () => {
   return (
-    <section id="projects" className="relative bg-bunker-50 pt-24 pb-16">
+    <section id="Projects" className="relative bg-bunker-50 pt-24 pb-16">
       {/* Page Divider en la parte superior */}
       <div
         className="absolute top-0 left-0 w-full"
@@ -31,7 +31,7 @@ const Projects = () => {
           <div className="flex flex-col rounded-2xl bg-bunker-100 shadow-lg">
             <figure className="flex justify-center items-center rounded-t-2xl">
               <img
-                src="/src/assets/portfolio-cover.webp"
+                src="/portfolio-cover.webp"
                 alt="Card Preview"
                 className="rounded-t-2xl w-full h-48 object-cover"
               />
@@ -77,7 +77,7 @@ const Projects = () => {
           <div className="flex flex-col rounded-2xl bg-bunker-100 shadow-lg">
             <figure className="flex justify-center items-center rounded-t-2xl">
               <img
-                src="/src/assets/mycondition-cover.webp"
+                src="/mycondition-cover.webp"
                 alt="Card Preview"
                 className="rounded-t-2xl w-full h-48 object-cover"
               />
@@ -124,7 +124,7 @@ const Projects = () => {
           <div className="flex flex-col rounded-2xl bg-bunker-100 shadow-lg">
             <figure className="flex justify-center items-center rounded-t-2xl">
               <img
-                src="/src/assets/yeezyverse-cover.webp"
+                src="/yeezyverse-cover.webp"
                 alt="Card Preview"
                 className="rounded-t-2xl w-full h-48 object-cover"
               />

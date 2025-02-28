@@ -33,10 +33,11 @@ const Navbar = () => {
   }, [isMobileMenuOpen]);
 
   const navItems = [
-    { href: "#", label: "Home" },
-    { href: "#", label: "About" },
-    { href: "#", label: "Services" },
-    { href: "#", label: "Pricing" },
+    { href: "#Hero", label: "Home" },
+    { href: "#Services", label: "Services" },
+    { href: "#Skills", label: "Skills" },
+    { href: "#Projects", label: "Projects" },
+    { href: "#AboutMe", label: "About Me" },
   ];
 
   return (
@@ -44,7 +45,7 @@ const Navbar = () => {
       <nav className="fixed top-0 left-0 right-0 z-50 m-6 rounded-xl bg-gray-500/10 backdrop-blur-md mix-blend-difference">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a
-            href="#"
+            href="#hero"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
             <span className="self-center text-2xl font-semibold">

@@ -45,7 +45,7 @@ const ContactMe = () => {
   };
 
   return (
-    <section id="contact" className="relative bg-bunker-50 pt-24 pb-16">
+    <section id="ContactMe" className="relative bg-bunker-50 pt-24 pb-16">
       {/* Page Divider en la parte superior */}
       <div
         className="absolute top-0 left-0 w-full"
@@ -167,51 +167,195 @@ const ContactMe = () => {
         {/* Iconos de redes sociales */}
         <div className="flex justify-center gap-6 mt-12">
           <a
-            href="https://github.com/joisrosafer"
+            href="https://github.com/JoisRosalesDev"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-bunker-950 hover:text-bunker-600 transition-colors"
+            className="p-2 rounded-full bg-gradient-to-br from-gray-700 to-black hover:from-black hover:to-gray-700 transition-all"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
               viewBox="0 0 24 24"
-              fill="currentColor"
             >
-              <path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.652.242 2.873.118 3.176.77.84 1.235 1.91 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222 0 1.604-.015 2.896-.015 3.289 0 .322.216.694.825.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z" />
+              <mask id="lineMdGithubLoop0" width="24" height="24" x="0" y="0">
+                <g fill="#fff">
+                  <ellipse cx="9.5" cy="9" rx="1.5" ry="1" />
+                  <ellipse cx="14.5" cy="9" rx="1.5" ry="1" />
+                </g>
+              </mask>
+              <g
+                fill="none"
+                stroke="#f0fafb"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+              >
+                <path
+                  strokeDasharray="32"
+                  strokeDashoffset="32"
+                  d="M12 4c1.67 0 2.61 0.4 3 0.5c0.53 -0.43 1.94 -1.5 3.5 -1.5c0.34 1 0.29 2.22 0 3c0.75 1 1 2 1 3.5c0 2.19 -0.48 3.58 -1.5 4.5c-1.02 0.92 -2.11 1.37 -3.5 1.5c0.65 0.54 0.5 1.87 0.5 2.5c0 0.73 0 3 0 3M12 4c-1.67 0 -2.61 0.4 -3 0.5c-0.53 -0.43 -1.94 -1.5 -3.5 -1.5c-0.34 1 -0.29 2.22 0 3c-0.75 1 -1 2 -1 3.5c0 2.19 0.48 3.58 1.5 4.5c1.02 0.92 2.11 1.37 3.5 1.5c-0.65 0.54 -0.5 1.87 -0.5 2.5c0 0.73 0 3 0 3"
+                >
+                  <animate
+                    fill="freeze"
+                    attributeName="stroke-dashoffset"
+                    dur="0.7s"
+                    values="32;0"
+                  />
+                </path>
+                <path
+                  strokeDasharray="10"
+                  strokeDashoffset="10"
+                  d="M9 19c-1.406 0-2.844-.563-3.688-1.188C4.47 17.188 4.22 16.157 3 15.5"
+                >
+                  <animate
+                    attributeName="d"
+                    dur="3s"
+                    repeatCount="indefinite"
+                    values="M9 19c-1.406 0-2.844-.563-3.688-1.188C4.47 17.188 4.22 16.157 3 15.5;M9 19c-1.406 0-3-.5-4-.5-.532 0-1 0-2-.5;M9 19c-1.406 0-2.844-.563-3.688-1.188C4.47 17.188 4.22 16.157 3 15.5"
+                  />
+                  <animate
+                    fill="freeze"
+                    attributeName="stroke-dashoffset"
+                    begin="0.8s"
+                    dur="0.2s"
+                    values="10;0"
+                  />
+                </path>
+              </g>
+              <rect
+                width="8"
+                height="4"
+                x="8"
+                y="11"
+                fill="#f0fafb"
+                mask="url(#lineMdGithubLoop0)"
+              >
+                <animate
+                  attributeName="y"
+                  dur="10s"
+                  keyTimes="0;0.45;0.46;0.54;0.55;1"
+                  repeatCount="indefinite"
+                  values="11;11;7;7;11;11"
+                />
+              </rect>
             </svg>
           </a>
           <a
-            href="www.linkedin.com/in/jois-rosales-fernández-260baa24b"
+            href="https://www.linkedin.com/in/jois-rosales-fernández-260baa24b"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-bunker-950 hover:text-bunker-600 transition-colors"
+            className="p-2 rounded-full bg-gradient-to-br from-blue-600 to-blue-900 hover:from-blue-900 hover:to-blue-600 transition-all"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
               viewBox="0 0 24 24"
-              fill="currentColor"
             >
-              <path d="M19 0H5a5 5 0 0 0-5 5v14a5 5 0 0 0 5 5h14a5 5 0 0 0 5-5V5a5 5 0 0 0-5-5zM8 19H5V8h3v11zM6.5 6.732c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.784 1.764-1.75 1.764zM20 19h-3v-5.604c0-3.368-4-3.113-4 0V19h-3V8h3v1.765c1.396-2.586 7-2.777 7 2.476V19z" />
+              <circle cx="4" cy="4" r="2" fill="#f0fafb" fillOpacity="0">
+                <animate
+                  fill="freeze"
+                  attributeName="fill-opacity"
+                  dur="0.15s"
+                  values="0;1"
+                />
+              </circle>
+              <g
+                fill="none"
+                stroke="#f0fafb"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="4"
+              >
+                <path strokeDasharray="12" strokeDashoffset="12" d="M4 10v10">
+                  <animate
+                    fill="freeze"
+                    attributeName="stroke-dashoffset"
+                    begin="0.15s"
+                    dur="0.2s"
+                    values="12;0"
+                  />
+                </path>
+                <path strokeDasharray="12" strokeDashoffset="12" d="M10 10v10">
+                  <animate
+                    fill="freeze"
+                    attributeName="stroke-dashoffset"
+                    begin="0.45s"
+                    dur="0.2s"
+                    values="12;0"
+                  />
+                </path>
+                <path
+                  strokeDasharray="24"
+                  strokeDashoffset="24"
+                  d="M10 15c0 -2.76 2.24 -5 5 -5c2.76 0 5 2.24 5 5v5"
+                >
+                  <animate
+                    fill="freeze"
+                    attributeName="stroke-dashoffset"
+                    begin="0.65s"
+                    dur="0.2s"
+                    values="24;0"
+                  />
+                </path>
+              </g>
             </svg>
           </a>
           <a
-            href="https://instagram.com/joisrosafer"
+            href="https://www.instagram.com/joisfrontdev/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-bunker-950 hover:text-bunker-600 transition-colors"
+            className="p-2 rounded-full bg-gradient-to-br from-pink-500 to-purple-600 hover:from-purple-600 hover:to-pink-500 transition-all"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
               viewBox="0 0 24 24"
-              fill="currentColor"
             >
-              <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+              <circle cx="17" cy="7" r="1.5" fill="#f0fafb" fillOpacity="0">
+                <animate
+                  fill="freeze"
+                  attributeName="fill-opacity"
+                  begin="1.3s"
+                  dur="0.15s"
+                  values="0;1"
+                />
+              </circle>
+              <g
+                fill="none"
+                stroke="#f0fafb"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+              >
+                <path
+                  strokeDasharray="72"
+                  strokeDashoffset="72"
+                  d="M16 3c2.76 0 5 2.24 5 5v8c0 2.76 -2.24 5 -5 5h-8c-2.76 0 -5 -2.24 -5 -5v-8c0 -2.76 2.24 -5 5 -5h4Z"
+                >
+                  <animate
+                    fill="freeze"
+                    attributeName="stroke-dashoffset"
+                    dur="0.6s"
+                    values="72;0"
+                  />
+                </path>
+                <path
+                  strokeDasharray="28"
+                  strokeDashoffset="28"
+                  d="M12 8c2.21 0 4 1.79 4 4c0 2.21 -1.79 4 -4 4c-2.21 0 -4 -1.79 -4 -4c0 -2.21 1.79 -4 4 -4"
+                >
+                  <animate
+                    fill="freeze"
+                    attributeName="stroke-dashoffset"
+                    begin="0.7s"
+                    dur="0.6s"
+                    values="28;0"
+                  />
+                </path>
+              </g>
             </svg>
           </a>
         </div>

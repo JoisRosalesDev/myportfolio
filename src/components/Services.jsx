@@ -1,6 +1,6 @@
 const Services = () => {
   return (
-    <section id="services" className="relative bg-bunker-50 pt-24 pb-16">
+    <section id="Services" className="relative bg-bunker-50 pt-24 pb-16">
       {/* Page Divider en la parte superior */}
       <div
         className="absolute top-0 left-0 w-full"

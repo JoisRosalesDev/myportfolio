@@ -18,7 +18,7 @@ const Hero = () => {
 
   return (
     <section
-      id="hero"
+      id="Hero"
       className="w-full h-auto min-h-[700px] bg-bunker-950 flex flex-col justify-center items-center"
     >
       <h1 className="text-4xl md:text-6xl lg:text-8xl font-bold text-bunker-50">
@@ -28,7 +28,7 @@ const Hero = () => {
         Front-end developer from Chile
       </p>
       <a
-        href="#contact"
+        href="#ContactMe"
         className="primary-button text-bunker-50 px-4 py-2 rounded-full mt-4"
       >
         Contact Me
