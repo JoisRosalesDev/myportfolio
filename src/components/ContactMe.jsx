@@ -68,7 +68,7 @@ const ContactMe = () => {
       </div>
 
       {/* Contenedor principal con ancho personalizado y márgenes amplios */}
-      <div className="mx-auto max-w-4xl px-8 w-full">
+      <div className="mx-auto max-w-2xl px-8 w-full">
         {/* Título de la sección */}
         <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-center text-bunker-950 italic mb-16">
           Send me an Email
@@ -149,7 +149,7 @@ const ContactMe = () => {
               name="message"
               value={formData.message}
               onChange={handleChange}
-              className="w-full p-3 rounded-lg border border-bunker-500 bg-bunker-700 text-bunker-50 focus:outline-none focus:ring-2 focus:ring-bunker-500"
+              className="w-full p-3 rounded-lg border border-bunker-500 bg-bunker-700 text-bunker-50 focus:outline-none focus:ring-2 focus:ring-bunker-500 field-sizing-content"
               rows="5"
               required
             />

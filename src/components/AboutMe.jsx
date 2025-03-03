@@ -67,14 +67,18 @@ const AboutMe = () => {
             </h2>
             <p className="text-lg text-bunker-700">
               21 year old student of Computer Engineering, studying 7th
-              semester, with a focus on Front-end development. I have
-              participated in collaborative academic projects under agile
-              methodologies such as Scrum, developing skills in teamwork,
-              problem solving and adaptation to dynamic environments.
+              semester, with a focus on{" "}
+              <span className="font-bold italic">Front-end development</span>. I
+              have participated in collaborative academic projects under{" "}
+              <span className="font-bold italic">agile methodologies</span> such
+              as Scrum, developing skills in teamwork, problem solving and
+              adaptation to dynamic environments.
             </p>
             <p className="text-lg text-bunker-700 mt-4">
-              I am looking for an internship opportunity to apply my knowledge,
-              keep learning and add value in the technological field.
+              I am looking for an{" "}
+              <span className="font-bold italic">internship opportunity</span>{" "}
+              to apply my knowledge, <span className="font-bold italic">keep learning and add value</span> in the
+              technological field.
             </p>
           </div>
         </div>

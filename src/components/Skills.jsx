@@ -4,6 +4,7 @@ const TECHNOLOGIES = [
   "HTML",
   "CSS",
   "JavaScript",
+  "Typescript",
   "Tailwind CSS",
   "Angular",
   "Ionic",
@@ -16,21 +17,18 @@ const TECHNOLOGIES = [
   "Django",
   "Jira",
   "React",
-  "Typescript",
   "Next.js",
 ];
 
 const SOFT_SKILLS = [
-  "Communication",
+  "Effective communication",
   "Teamwork",
   "Problem Solving",
   "Adaptability",
   "Time Management",
-  "Leadership",
-  "Creativity",
+  "Positive attitude",
   "Empathy",
   "Critical Thinking",
-  "Conflict Resolution",
 ];
 
 const SkillTag = ({ skill, bgClass }) => (
