@@ -42,7 +42,7 @@ const Navbar = () => {
 
   return (
     <header className="text-white">
-      <nav className="fixed top-0 left-0 right-0 z-50 m-6 rounded-xl bg-gray-500/10 backdrop-blur-md mix-blend-difference">
+      <nav className="fixed top-0 left-0 right-0 z-50 m-4 rounded-4xl bg-bunker-950/50 backdrop-blur-md border border-bunker-900/50">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a
             href="#hero"
@@ -56,7 +56,7 @@ const Navbar = () => {
             onClick={toggleMobileMenu}
             data-collapse-toggle="navbar-default"
             type="button"
-            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-bunker-200 rounded-lg md:hidden hover:bg-bunker-800 focus:outline-none focus:ring-2 focus:ring-bunker-600"
+            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-bunker-200 rounded-lg lg:hidden hover:bg-bunker-800 focus:outline-none focus:ring-2 focus:ring-bunker-600"
             aria-controls="navbar-default"
             aria-expanded={isMobileMenuOpen ? "true" : "false"}
           >
@@ -80,15 +80,15 @@ const Navbar = () => {
           <div
             className={`${
               isMobileMenuOpen ? "block" : "hidden"
-            } w-full md:block md:w-auto`}
+            } w-full lg:block lg:w-auto`}
             id="navbar-default"
           >
-            <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
+            <ul className="font-medium flex flex-col p-4 lg:p-0 mt-4 rounded-lg lg:flex-row lg:space-x-8 rtl:space-x-reverse lg:mt-0 lg:border-0">
               {navItems.map((item) => (
                 <li key={item.label}>
                   <a
                     href={item.href}
-                    className="block py-2 px-3 rounded-sm hover:bg-bunker-800 md:hover:bg-transparent md:border-0 md:hover:text-bunker-300"
+                    className="block py-2 px-3 rounded-sm hover:bg-bunker-800 lg:hover:bg-transparent lg:border-0 lg:hover:text-bunker-300"
                   >
                     {item.label}
                   </a>
@@ -98,9 +98,9 @@ const Navbar = () => {
                 <a
                   href="/src/assets/cv-jois.pdf"
                   download
-                  className="block py-2 px-3 rounded-sm bg-blue-500 text-white hover:bg-blue-600 md:border-0"
+                  className="block py-2 px-3 rounded-2xl bg-blue-500 text-white hover:bg-blue-600 lg:border-0"
                 >
-                  My CV
+                  Resume
                 </a>
               </li>
             </ul>
