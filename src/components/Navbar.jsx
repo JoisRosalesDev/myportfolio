@@ -98,7 +98,7 @@ const Navbar = () => {
                 <a
                   href="/src/assets/cv-jois.pdf"
                   download
-                  className="block py-2 px-3 rounded-xl bg-blue-500 text-bunker-50 hover:bg-blue-600 lg:border-0"
+                  className="block p-2 rounded-xl bg-bunker-500 text-bunker-50 hover:bg-bunker-600"
                 >
                   Resume
                 </a>
