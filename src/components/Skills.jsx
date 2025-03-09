@@ -89,7 +89,7 @@ const Skills = () => {
       </div>
 
       {/* Main container */}
-      <div className="mx-auto max-w-4xl px-8">
+      <div className="mx-auto max-w-5xl px-8">
         <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-center text-bunker-50 italic mb-16">
           Skills
         </h1>
