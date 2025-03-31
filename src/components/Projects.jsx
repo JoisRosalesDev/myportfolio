@@ -27,7 +27,7 @@ const Projects = () => {
 
         {/* Contenedor de las cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 w-full">
-          {/* Card 2 */}
+          {/* Card 1 */}
           <div className="flex flex-col rounded-2xl bg-bunker-100 shadow-lg">
             <figure className="flex justify-center items-center rounded-t-2xl">
               <img
