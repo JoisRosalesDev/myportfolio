@@ -26,59 +26,14 @@ const Projects = () => {
         </h1>
 
         {/* Contenedor de las cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full">
-          {/* Card 1 */}
-          <div className="flex flex-col rounded-2xl bg-bunker-100 shadow-lg">
-            <figure className="flex justify-center items-center rounded-t-2xl">
-              <img
-                src="/portfolio-cover.webp"
-                alt="Card Preview"
-                className="rounded-t-2xl w-full h-48 object-cover"
-              />
-            </figure>
-            <div className="flex flex-col p-6">
-              <h2 className="text-2xl font-bold text-bunker-950 pb-4">
-                First Portfolio
-              </h2>
-              <p className="text-lg text-bunker-700">
-                A much older and not so modern version of my portfolio, but it
-                served as inspiration for more projects.
-              </p>
-              {/* Etiquetas de tecnologías */}
-              <div className="flex flex-wrap gap-2 mt-4">
-                <span className="px-3 py-1 bg-bunker-500 text-bunker-50 rounded-full text-sm">
-                  Tailwind CSS
-                </span>
-                <span className="px-3 py-1 bg-bunker-500 text-bunker-50 rounded-full text-sm">
-                  HTML
-                </span>
-                <span className="px-3 py-1 bg-bunker-500 text-bunker-50 rounded-full text-sm">
-                  JavaScript
-                </span>
-                <span className="px-3 py-1 bg-bunker-500 text-bunker-50 rounded-full text-sm">
-                  Node.js
-                </span>
-              </div>
-              {/* Botón */}
-              <div className="flex justify-end pt-6">
-                <a
-                  href="https://joisrosalesdev.github.io/JoisPortfolio/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-bunker-600 text-bunker-50 w-full font-bold text-base p-3 rounded-lg text-center hover:bg-bunker-700 active:scale-95 transition-transform transform"
-                >
-                  Visit Site
-                </a>
-              </div>
-            </div>
-          </div>
-
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 w-full">
           {/* Card 2 */}
           <div className="flex flex-col rounded-2xl bg-bunker-100 shadow-lg">
             <figure className="flex justify-center items-center rounded-t-2xl">
               <img
-                src="/mycondition-cover.webp"
+                src="/public/img/mycondition-cover.webp"
                 alt="Card Preview"
+                decoding="async"
                 className="rounded-t-2xl w-full h-48 object-cover"
               />
             </figure>
@@ -124,8 +79,9 @@ const Projects = () => {
           <div className="flex flex-col rounded-2xl bg-bunker-100 shadow-lg">
             <figure className="flex justify-center items-center rounded-t-2xl">
               <img
-                src="/yeezyverse-cover.webp"
+                src="/public/img/yeezyverse-cover.webp"
                 alt="Card Preview"
+                decoding="async"
                 className="rounded-t-2xl w-full h-48 object-cover"
               />
             </figure>

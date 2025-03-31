@@ -96,7 +96,7 @@ const Navbar = () => {
               ))}
               <li>
                 <a
-                  href="/src/assets/cv-jois.pdf"
+                  href="/public/docs/cv-jois.pdf"
                   download
                   className="block p-2 rounded-xl bg-bunker-500 text-bunker-50 hover:bg-bunker-600"
                 >

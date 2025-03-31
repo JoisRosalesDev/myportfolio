@@ -36,22 +36,23 @@ const AboutMe = () => {
           <div className="flex flex-col items-center w-full md:w-1/3">
             {/* Foto de perfil */}
             <img
-              src="/joispfp.webp" // Cambia esta ruta por la de tu foto
+              src="/public/img/joispfp.webp"
               alt="Profile Picture"
+              decoding="async"
               className="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover border-4 bg-bunker-600 border-bunker-500 shadow-lg"
             />
 
             {/* Botones de descarga */}
             <div className="flex flex-col gap-4 mt-6 w-full">
               <a
-                href="/src/assets/TalkChile.pdf" // Cambia esta ruta por la de tu certificado
+                href="/public/docs/TalkChile.pdf"
                 download
                 className="bg-bunker-500 text-bunker-50 text-center font-bold text-lg p-3 rounded-lg hover:bg-bunker-600 active:scale-95 transition-transform transform"
               >
                 English Certificate
               </a>
               <a
-                href="/src/assets/Scrum.pdf" // Cambia esta ruta por la de tu certificado
+                href="/public/docs/Scrum.pdf"
                 download
                 className="bg-bunker-500 text-bunker-50 text-center font-bold text-lg p-3 rounded-lg hover:bg-bunker-600 active:scale-95 transition-transform transform"
               >
@@ -77,8 +78,11 @@ const AboutMe = () => {
             <p className="text-lg text-bunker-700 mt-4">
               I am looking for an{" "}
               <span className="font-bold italic">internship opportunity</span>{" "}
-              to apply my knowledge, <span className="font-bold italic">keep learning and add value</span> in the
-              technological field.
+              to apply my knowledge,{" "}
+              <span className="font-bold italic">
+                keep learning and add value
+              </span>{" "}
+              in the technological field.
             </p>
           </div>
         </div>
