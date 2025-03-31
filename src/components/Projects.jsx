@@ -31,7 +31,7 @@ const Projects = () => {
           <div className="flex flex-col rounded-2xl bg-bunker-100 shadow-lg">
             <figure className="flex justify-center items-center rounded-t-2xl">
               <img
-                src="/public/img/mycondition-cover.webp"
+                src="/img/mycondition-cover.webp"
                 alt="Card Preview"
                 decoding="async"
                 className="rounded-t-2xl w-full h-48 object-cover"
@@ -79,7 +79,7 @@ const Projects = () => {
           <div className="flex flex-col rounded-2xl bg-bunker-100 shadow-lg">
             <figure className="flex justify-center items-center rounded-t-2xl">
               <img
-                src="/public/img/yeezyverse-cover.webp"
+                src="/img/yeezyverse-cover.webp"
                 alt="Card Preview"
                 decoding="async"
                 className="rounded-t-2xl w-full h-48 object-cover"

@@ -36,7 +36,7 @@ const AboutMe = () => {
           <div className="flex flex-col items-center w-full md:w-1/3">
             {/* Foto de perfil */}
             <img
-              src="/public/img/joispfp.webp"
+              src="/img/joispfp.webp"
               alt="Profile Picture"
               decoding="async"
               className="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover border-4 bg-bunker-600 border-bunker-500 shadow-lg"
@@ -51,7 +51,7 @@ const AboutMe = () => {
                 onClick={() => {
                   // Crear una URL completa (asegúrate de que esta ruta sea correcta)
                   const fileUrl =
-                    window.location.origin + "/public/docs/TalkChile.pdf";
+                    window.location.origin + "/docs/TalkChile.pdf";
 
                   // Crear un elemento de enlace temporal
                   const link = document.createElement("a");
@@ -73,7 +73,7 @@ const AboutMe = () => {
                 onClick={() => {
                   // Crear una URL completa (asegúrate de que esta ruta sea correcta)
                   const fileUrl =
-                    window.location.origin + "/public/docs/Scrum.pdf";
+                    window.location.origin + "/docs/Scrum.pdf";
 
                   // Crear un elemento de enlace temporal
                   const link = document.createElement("a");
