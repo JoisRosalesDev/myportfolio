@@ -99,23 +99,8 @@ const Navbar = () => {
                   href="/docs/cv-jois.pdf"
                   download="cv-jois.pdf"
                   className="block p-2 rounded-xl bg-bunker-500 text-bunker-50 hover:bg-bunker-600"
-                  onClick={() => {
-                    // Crear una URL completa
-                    const fileUrl =
-                      window.location.origin + "/docs/cv-jois.pdf";
-
-                    // Crear un elemento de enlace temporal
-                    const link = document.createElement("a");
-                    link.href = fileUrl;
-                    link.setAttribute("download", "cv-jois.pdf");
-
-                    // Añadir al DOM, hacer clic y eliminar
-                    document.body.appendChild(link);
-                    link.click();
-                    document.body.removeChild(link);
-                  }}
                 >
-                  Resume
+                  CV
                 </a>
               </li>
             </ul>

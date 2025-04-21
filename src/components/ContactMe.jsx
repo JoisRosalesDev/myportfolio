@@ -170,7 +170,7 @@ const ContactMe = () => {
             href="https://github.com/JoisRosalesDev"
             target="_blank"
             rel="noopener noreferrer"
-            className="p-2 rounded-full bg-gradient-to-br from-gray-700 to-black hover:from-black hover:to-gray-700 transition-all"
+            className="p-2 rounded-full bg-gradient-to-br from-gray-700 to-black hover:from-black hover:to-gray-700 hover:scale-110 transition-all"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -245,7 +245,7 @@ const ContactMe = () => {
             href="https://www.linkedin.com/in/jois-rosales-fernández-260baa24b"
             target="_blank"
             rel="noopener noreferrer"
-            className="p-2 rounded-full bg-gradient-to-br from-blue-600 to-blue-900 hover:from-blue-900 hover:to-blue-600 transition-all"
+            className="p-2 rounded-full bg-gradient-to-br from-blue-600 to-blue-900 hover:from-blue-900 hover:to-blue-600 hover:scale-110 transition-all"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -306,7 +306,7 @@ const ContactMe = () => {
             href="https://www.instagram.com/joisfrontdev/"
             target="_blank"
             rel="noopener noreferrer"
-            className="p-2 rounded-full bg-gradient-to-br from-pink-500 to-purple-600 hover:from-purple-600 hover:to-pink-500 transition-all"
+            className="p-2 rounded-full bg-gradient-to-br from-pink-500 to-purple-600 hover:from-purple-600 hover:to-pink-500 hover:scale-110 transition-all"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

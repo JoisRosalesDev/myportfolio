@@ -45,46 +45,16 @@ const AboutMe = () => {
             {/* Botones de descarga */}
             <div className="flex flex-col gap-4 mt-6 w-full">
               <a
-                href="/public/docs/TalkChile.pdf"
+                href="/docs/TalkChile.pdf"
                 download="TalkChile.pdf"
                 className="bg-bunker-500 text-bunker-50 text-center font-bold text-lg p-3 rounded-lg hover:bg-bunker-600 active:scale-95 transition-transform transform"
-                onClick={() => {
-                  // Crear una URL completa (asegúrate de que esta ruta sea correcta)
-                  const fileUrl =
-                    window.location.origin + "/docs/TalkChile.pdf";
-
-                  // Crear un elemento de enlace temporal
-                  const link = document.createElement("a");
-                  link.href = fileUrl;
-                  link.setAttribute("download", "TalkChile.pdf");
-
-                  // Añadir al DOM, hacer clic y eliminar
-                  document.body.appendChild(link);
-                  link.click();
-                  document.body.removeChild(link);
-                }}
               >
                 English Certificate
               </a>
               <a
-                href="/public/docs/Scrum.pdf"
+                href="/docs/Scrum.pdf"
                 download="Scrum.pdf"
                 className="bg-bunker-500 text-bunker-50 text-center font-bold text-lg p-3 rounded-lg hover:bg-bunker-600 active:scale-95 transition-transform transform"
-                onClick={() => {
-                  // Crear una URL completa (asegúrate de que esta ruta sea correcta)
-                  const fileUrl =
-                    window.location.origin + "/docs/Scrum.pdf";
-
-                  // Crear un elemento de enlace temporal
-                  const link = document.createElement("a");
-                  link.href = fileUrl;
-                  link.setAttribute("download", "Scrum.pdf");
-
-                  // Añadir al DOM, hacer clic y eliminar
-                  document.body.appendChild(link);
-                  link.click();
-                  document.body.removeChild(link);
-                }}
               >
                 Scrum Certificate
               </a>

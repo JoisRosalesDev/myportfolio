@@ -9,31 +9,18 @@ const TECHNOLOGIES = [
   "Angular",
   "Ionic",
   "Scrum",
-  "Node.js",
   "SQL",
-  "Android Studio",
   "Github",
   "Python",
   "Django",
   "Jira",
   "React",
-  "Next.js",
-];
-
-const SOFT_SKILLS = [
-  "Effective communication",
-  "Teamwork",
-  "Problem Solving",
-  "Adaptability",
-  "Time Management",
-  "Positive attitude",
-  "Empathy",
-  "Critical Thinking",
+  "Astro"
 ];
 
 const SkillTag = ({ skill, bgClass }) => (
   <span
-    className={`px-4 py-2 ${bgClass} rounded-full text-sm md:text-base hover:bg-bunker-600 transition-colors duration-300`}
+    className={`px-4 py-2 ${bgClass} rounded-2xl text-sm md:text-base hover:scale-105 hover:bg-bunker-600 transition`}
   >
     {skill}
   </span>
@@ -98,12 +85,6 @@ const Skills = () => {
           title="Technologies"
           skills={TECHNOLOGIES}
           bgClass="bg-bunker-500 text-bunker-50"
-        />
-
-        <SkillSection
-          title="Soft Skills"
-          skills={SOFT_SKILLS}
-          bgClass="bg-bunker-400 text-bunker-950"
         />
       </div>
     </section>
