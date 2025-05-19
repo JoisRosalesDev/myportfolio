@@ -28,13 +28,13 @@ const Projects = () => {
         {/* Contenedor de las cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-x-8 gap-y-16 w-full">
           {/* Card 1 */}
-          <div className="flex flex-col rounded-xl bg-bunker-100 shadow-xl hover:scale-105 hover:-rotate-2 transition-all duration-300">
+          <div className="flex flex-col rounded-xl border-2 border-bunker-800/80 bg-bunker-100 shadow-xl hover:scale-105 hover:-rotate-2 transition-all duration-300">
             <figure className="flex justify-center items-center">
               <img
                 src="/img/mycondition.webp"
                 alt="Card Preview"
                 decoding="async"
-                className="rounded-t-xl w-full h-auto object-cover"
+                className="rounded-t-xl w-full h-auto object-cover overflow-hidden"
               />
             </figure>
             <div className="flex flex-col p-6">
@@ -73,13 +73,13 @@ const Projects = () => {
           </div>
 
           {/* Card 3 */}
-          <div className="flex flex-col rounded-2xl bg-bunker-100 shadow-lg hover:scale-105 hover:rotate-2 transition-all duration-300">
+          <div className="flex flex-col rounded-2xl border-2 border-bunker-800/80 bg-bunker-100 shadow-lg hover:scale-105 hover:rotate-2 transition-all duration-300">
             <figure className="flex justify-center items-center">
               <img
                 src="/img/yeezyverse.webp"
                 alt="Card Preview"
                 decoding="async"
-                className="rounded-t-2xl w-full h-auto object-cover"
+                className="rounded-t-2xl w-full h-auto object-cover overflow-hidden"
               />
             </figure>
             <div className="flex flex-col p-6">

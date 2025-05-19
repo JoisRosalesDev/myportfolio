@@ -41,7 +41,7 @@ const Navbar = () => {
 
   return (
     <header className="text-white">
-      <nav className="fixed top-0 left-0 right-0 z-50 m-4 rounded-xl bg-bunker-950/40 backdrop-blur-lg">
+      <nav className="fixed top-0 left-0 right-0 z-50 m-4 rounded-2xl bg-bunker-950/40 backdrop-blur-lg border border-bunker-950/40 shadow-lg">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
           <a
             href="#hero"
@@ -99,7 +99,7 @@ const Navbar = () => {
                 <a
                   href="/docs/cv-jois.pdf"
                   download="cv-jois.pdf"
-                  className="block p-2 rounded-xl bg-bunker-600 text-bunker-50 hover:bg-bunker-700 hover:scale-105 transition duration-300"
+                  className="block p-2 rounded-xl border border-bunker-800/80 bg-bunker-600 text-bunker-50 hover:bg-bunker-700 hover:scale-105 transition duration-300"
                 >
                   CV
                 </a>

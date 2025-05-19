@@ -68,7 +68,7 @@ const ContactMe = () => {
       </div>
 
       {/* Contenedor principal con ancho personalizado y márgenes amplios */}
-      <div className="mx-auto max-w-2xl px-8 w-full">
+      <div className="mx-auto max-w-xl px-8 w-full">
         {/* Título de la sección */}
         <h1 className="text-6xl md:text-8xl font-bold text-center text-bunker-50 italic mb-16">
           Contact Me

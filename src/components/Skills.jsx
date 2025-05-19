@@ -27,7 +27,7 @@ const Services = () => {
       </div>
 
       {/* Contenedor principal con bento grid - Ajustado para centrar correctamente */}
-      <div className="container mx-auto p-4 sm:px-6 max-w-5xl">
+      <div className="container mx-auto p-4 sm:px-6 max-w-4xl">
         <h1 className="text-6xl md:text-8xl font-bold text-center text-bunker-950 italic mb-8 md:mb-12 lg:mb-16">
           Skills
         </h1>
