@@ -1,6 +1,6 @@
 const Services = () => {
   return (
-    <section id="Services" className="relative bg-bunker-50 pt-24 pb-16">
+    <section id="Skills" className="relative bg-bunker-50 pt-24 pb-16">
       {/* Page Divider en la parte superior */}
       <div
         className="absolute top-0 left-0 w-full"
@@ -27,15 +27,15 @@ const Services = () => {
       </div>
 
       {/* Contenedor principal con bento grid - Ajustado para centrar correctamente */}
-      <div className="container mx-auto p-4 sm:px-6 max-w-4xl">
-        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-center text-bunker-950 italic mb-8 md:mb-12 lg:mb-16">
+      <div className="container mx-auto p-4 sm:px-6 max-w-5xl">
+        <h1 className="text-6xl md:text-8xl font-bold text-center text-bunker-950 italic mb-8 md:mb-12 lg:mb-16">
           Skills
         </h1>
 
         {/* Bento grid responsivo - Recuperando diseño original pero centrado */}
-        <div className="grid grid-cols-1 md:grid-cols-4 grid-rows-auto md:grid-rows-5 gap-4 text-bunker-50">
+        <div className="grid grid-cols-1 md:grid-cols-4 grid-rows-auto md:grid-rows-5 gap-6 text-bunker-50">
           {/* Card 1: Web development */}
-          <div className="col-span-1 md:col-span-2 row-span-1 md:row-span-3  rounded-xl p-4 md:p-6 flex flex-col bg-bunker-600 hover:bg-bunker-700 hover:scale-105 transition duration-300">
+          <div className="col-span-1 md:col-span-2 row-span-1 md:row-span-3  rounded-xl p-4 md:p-6 flex flex-col bg-bunker-600 hover:bg-bunker-700 hover:scale-105 hover:-rotate-2 transition-all duration-300">
             <div className="mb-3 md:mb-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -60,7 +60,7 @@ const Services = () => {
           </div>
 
           {/* Card 2: Responsive websites */}
-          <div className="col-span-1 md:col-span-2 md:col-start-3 row-span-1 md:row-span-2 rounded-xl p-4 md:p-6 flex flex-col hover:shadow-lg bg-bunker-600 hover:bg-bunker-700 hover:scale-105 transition duration-300">
+          <div className="col-span-1 md:col-span-2 md:col-start-3 row-span-1 md:row-span-2 rounded-xl p-4 md:p-6 flex flex-col hover:shadow-lg bg-bunker-600 hover:bg-bunker-700 hover:scale-105 hover:-rotate-2 transition-all duration-300">
             <div className="mb-3 md:mb-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -85,7 +85,7 @@ const Services = () => {
           </div>
 
           {/* Card 3: Web performance optimization */}
-          <div className="col-span-1 md:col-span-2 md:col-start-1 md:row-start-4 row-span-1 md:row-span-2  rounded-2xl p-4 md:p-6 flex flex-col hover:shadow-lg bg-bunker-600 hover:bg-bunker-700 hover:scale-105 transition duration-300">
+          <div className="col-span-1 md:col-span-2 md:col-start-1 md:row-start-4 row-span-1 md:row-span-2  rounded-2xl p-4 md:p-6 flex flex-col hover:shadow-lg bg-bunker-600 hover:bg-bunker-700 hover:scale-105 hover:-rotate-2 transition-all duration-300">
             <div className="mb-3 md:mb-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -112,7 +112,7 @@ const Services = () => {
           </div>
 
           {/* Card 4: Maintenance and improvement */}
-          <div className="col-span-1 md:col-span-2 md:col-start-3 md:row-start-3 row-span-1 md:row-span-3 rounded-2xl p-4 md:p-6 flex flex-col hover:shadow-lg bg-bunker-600 hover:bg-bunker-700 hover:scale-105 transition duration-300">
+          <div className="col-span-1 md:col-span-2 md:col-start-3 md:row-start-3 row-span-1 md:row-span-3 rounded-2xl p-4 md:p-6 flex flex-col hover:shadow-lg bg-bunker-600 hover:bg-bunker-700 hover:scale-105 hover:-rotate-2 transition-all duration-300">
             <div className="mb-3 md:mb-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

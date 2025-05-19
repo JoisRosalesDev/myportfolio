@@ -70,8 +70,8 @@ const ContactMe = () => {
       {/* Contenedor principal con ancho personalizado y márgenes amplios */}
       <div className="mx-auto max-w-2xl px-8 w-full">
         {/* Título de la sección */}
-        <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-center text-bunker-50 italic mb-16">
-          Send me an Email
+        <h1 className="text-6xl md:text-8xl font-bold text-center text-bunker-50 italic mb-16">
+          Contact Me
         </h1>
 
         {/* Formulario de contacto */}

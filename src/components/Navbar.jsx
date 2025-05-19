@@ -42,14 +42,16 @@ const Navbar = () => {
   return (
     <header className="text-white">
       <nav className="fixed top-0 left-0 right-0 z-50 m-4 rounded-xl bg-bunker-950/40 backdrop-blur-lg">
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
           <a
             href="#hero"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
-            <span className="self-center text-2xl font-semibold">
-              Portfolio
-            </span>
+            <img 
+            className="size-14"
+            src="/img/logo-plano.svg"
+            decoding="async"
+            alt="Logo" />
           </a>
           <button
             onClick={toggleMobileMenu}

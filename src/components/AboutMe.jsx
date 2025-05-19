@@ -26,7 +26,7 @@ const AboutMe = () => {
       {/* Contenedor principal con ancho personalizado y márgenes amplios */}
       <div className="mx-auto max-w-4xl px-8 w-full">
         {/* Título de la sección */}
-        <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-center text-bunker-950 italic mb-16">
+        <h1 className="text-6xl md:text-8xl font-bold text-center text-bunker-950 italic mb-16">
           About Me
         </h1>
 
@@ -39,7 +39,7 @@ const AboutMe = () => {
               src="/img/joispfp.webp"
               alt="Profile Picture"
               decoding="async"
-              className="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover border-4 border-bunker-600/80 bg-bunker-600 hover:border-bunker-700 hover:scale-110 transition duration-300 shadow-xl"
+              className="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover border-4 border-bunker-600/80 bg-bunker-600 hover:border-bunker-700 hover:scale-105 transition-all duration-300 shadow-xl"
             />
 
             {/* Botones de descarga */}
@@ -47,14 +47,14 @@ const AboutMe = () => {
               <a
                 href="/docs/TalkChile.pdf"
                 download="TalkChile.pdf"
-                className="bg-bunker-600 text-bunker-50 text-center font-semibold text-lg p-3 rounded-xl hover:bg-bunker-700 hover:scale-105 transition duration-300"
+                className="bg-bunker-600 text-bunker-50 text-center font-semibold text-lg p-3 rounded-xl hover:bg-bunker-700 hover:scale-105 transition-all duration-300"
               >
                 English Certificate
               </a>
               <a
                 href="/docs/Scrum.pdf"
                 download="Scrum.pdf"
-                className="bg-bunker-600 text-bunker-50 text-center font-semibold text-lg p-3 rounded-xl hover:bg-bunker-700 hover:scale-105 transition duration-300"
+                className="bg-bunker-600 text-bunker-50 text-center font-semibold text-lg p-3 rounded-xl hover:bg-bunker-700 hover:scale-105 transition-all duration-300"
               >
                 Scrum Certificate
               </a>
@@ -66,22 +66,22 @@ const AboutMe = () => {
             <h2 className="text-4xl font-bold text-bunker-50 mb-6">
               Hi, I&apos;m Jois!
             </h2>
-            <p className="text-lg text-bunker-50">
+            <p className="text-lg text-bunker-50 text-pretty hover:scale-110 transition-all duration-300">
               21 year old student of Computer Engineering, studying 7th
               semester, with a focus on{" "}
-              <span className="font-semibold font-erode italic">Front-end development</span>. I
+              <strong className="font-erode italic">Front-end development</strong>. I
               have participated in collaborative academic projects under{" "}
-              <span className="font-semibold font-erode italic">agile methodologies</span> such
+              <strong className="font-erode italic">agile methodologies</strong> such
               as Scrum, developing skills in teamwork, problem solving and
               adaptation to dynamic environments.
             </p>
-            <p className="text-lg text-bunker-50 mt-4">
+            <p className="text-lg text-bunker-50 mt-4 text-pretty hover:scale-110 transition-all duration-300">
               I am looking for an{" "}
-              <span className="font-semibold font-erode italic">internship opportunity</span>{" "}
+              <strong className="font-erode italic">internship opportunity</strong>{" "}
               to apply my knowledge,{" "}
-              <span className="font-semibold font-erode italic">
+              <strong className="font-erode italic">
                 keep learning and add value
-              </span>{" "}
+              </strong>{" "}
               in the technological field.
             </p>
           </div>
