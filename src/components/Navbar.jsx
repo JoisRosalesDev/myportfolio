@@ -34,7 +34,6 @@ const Navbar = () => {
 
   const navItems = [
     { href: "#Hero", label: "Home" },
-    { href: "#Services", label: "Services" },
     { href: "#Skills", label: "Skills" },
     { href: "#Projects", label: "Projects" },
     { href: "#AboutMe", label: "About Me" },
@@ -56,7 +55,7 @@ const Navbar = () => {
             onClick={toggleMobileMenu}
             data-collapse-toggle="navbar-default"
             type="button"
-            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-bunker-200 rounded-xl lg:hidden hover:bg-bunker-900"
+            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-bunker-200 rounded-xl lg:hidden hover:bg-bunker-900 transition duration-300"
             aria-controls="navbar-default"
             aria-expanded={isMobileMenuOpen ? "true" : "false"}
           >
@@ -88,7 +87,7 @@ const Navbar = () => {
                 <li key={item.label}>
                   <a
                     href={item.href}
-                    className="block py-2 px-3 rounded-xl hover:bg-bunker-900 lg:hover:bg-transparent lg:border-0 lg:hover:text-bunker-300"
+                    className="block py-2 px-3 hover:text-bunker-600 hover:scale-105 transition duration-300"
                   >
                     {item.label}
                   </a>
@@ -98,7 +97,7 @@ const Navbar = () => {
                 <a
                   href="/docs/cv-jois.pdf"
                   download="cv-jois.pdf"
-                  className="block p-2 rounded-xl bg-bunker-500 text-bunker-50 hover:bg-bunker-600"
+                  className="block p-2 rounded-xl bg-bunker-600 text-bunker-50 hover:bg-bunker-700 hover:scale-105 transition duration-300"
                 >
                   CV
                 </a>

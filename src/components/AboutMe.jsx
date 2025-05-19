@@ -1,6 +1,6 @@
 const AboutMe = () => {
   return (
-    <section id="AboutMe" className="relative bg-bunker-700 pt-24 pb-16">
+    <section id="AboutMe" className="relative bg-bunker-50 pt-24 pb-16">
       {/* Page Divider en la parte superior */}
       <div
         className="absolute top-0 left-0 w-full"
@@ -12,7 +12,7 @@ const AboutMe = () => {
             viewBox="0 0 1200 120"
             xmlns="http://www.w3.org/2000/svg"
             style={{
-              fill: "#f0fafb",
+              fill: "#296875",
               width: "125%",
               height: "75px",
               transform: "scaleX(-1)",
@@ -26,7 +26,7 @@ const AboutMe = () => {
       {/* Contenedor principal con ancho personalizado y márgenes amplios */}
       <div className="mx-auto max-w-4xl px-8 w-full">
         {/* Título de la sección */}
-        <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-center text-bunker-50 italic mb-16">
+        <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-center text-bunker-950 italic mb-16">
           About Me
         </h1>
 
@@ -39,7 +39,7 @@ const AboutMe = () => {
               src="/img/joispfp.webp"
               alt="Profile Picture"
               decoding="async"
-              className="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover border-4 bg-bunker-600 border-bunker-500 shadow-lg"
+              className="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover border-4 border-bunker-600/80 bg-bunker-600 hover:border-bunker-700 hover:scale-110 transition duration-300 shadow-xl"
             />
 
             {/* Botones de descarga */}
@@ -47,14 +47,14 @@ const AboutMe = () => {
               <a
                 href="/docs/TalkChile.pdf"
                 download="TalkChile.pdf"
-                className="bg-bunker-500 text-bunker-50 text-center font-bold text-lg p-3 rounded-lg hover:bg-bunker-600 active:scale-95 transition-transform transform"
+                className="bg-bunker-600 text-bunker-50 text-center font-semibold text-lg p-3 rounded-xl hover:bg-bunker-700 hover:scale-105 transition duration-300"
               >
                 English Certificate
               </a>
               <a
                 href="/docs/Scrum.pdf"
                 download="Scrum.pdf"
-                className="bg-bunker-500 text-bunker-50 text-center font-bold text-lg p-3 rounded-lg hover:bg-bunker-600 active:scale-95 transition-transform transform"
+                className="bg-bunker-600 text-bunker-50 text-center font-semibold text-lg p-3 rounded-xl hover:bg-bunker-700 hover:scale-105 transition duration-300"
               >
                 Scrum Certificate
               </a>
@@ -62,24 +62,24 @@ const AboutMe = () => {
           </div>
 
           {/* Card con descripción */}
-          <div className="w-full md:w-2/3 bg-bunker-100 rounded-2xl p-8 shadow-lg">
-            <h2 className="text-3xl font-bold text-bunker-950 mb-6">
+          <div className="w-full md:w-2/3 bg-bunker-600 rounded-xl p-8 shadow-xl">
+            <h2 className="text-4xl font-bold text-bunker-50 mb-6">
               Hi, I&apos;m Jois!
             </h2>
-            <p className="text-lg text-bunker-700">
+            <p className="text-lg text-bunker-50">
               21 year old student of Computer Engineering, studying 7th
               semester, with a focus on{" "}
-              <span className="font-bold italic">Front-end development</span>. I
+              <span className="font-semibold font-erode italic">Front-end development</span>. I
               have participated in collaborative academic projects under{" "}
-              <span className="font-bold italic">agile methodologies</span> such
+              <span className="font-semibold font-erode italic">agile methodologies</span> such
               as Scrum, developing skills in teamwork, problem solving and
               adaptation to dynamic environments.
             </p>
-            <p className="text-lg text-bunker-700 mt-4">
+            <p className="text-lg text-bunker-50 mt-4">
               I am looking for an{" "}
-              <span className="font-bold italic">internship opportunity</span>{" "}
+              <span className="font-semibold font-erode italic">internship opportunity</span>{" "}
               to apply my knowledge,{" "}
-              <span className="font-bold italic">
+              <span className="font-semibold font-erode italic">
                 keep learning and add value
               </span>{" "}
               in the technological field.

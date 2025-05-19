@@ -45,7 +45,7 @@ const ContactMe = () => {
   };
 
   return (
-    <section id="ContactMe" className="relative bg-bunker-50 pt-24 pb-16">
+    <section id="ContactMe" className="relative bg-bunker-700 pt-24 pb-16">
       {/* Page Divider en la parte superior */}
       <div
         className="absolute top-0 left-0 w-full"
@@ -57,7 +57,7 @@ const ContactMe = () => {
             viewBox="0 0 1200 120"
             xmlns="http://www.w3.org/2000/svg"
             style={{
-              fill: "#296875",
+              fill: "#f0fafb",
               width: "125%",
               height: "75px",
             }}
@@ -70,20 +70,20 @@ const ContactMe = () => {
       {/* Contenedor principal con ancho personalizado y márgenes amplios */}
       <div className="mx-auto max-w-2xl px-8 w-full">
         {/* Título de la sección */}
-        <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-center text-bunker-950 italic mb-16">
+        <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-center text-bunker-50 italic mb-16">
           Send me an Email
         </h1>
 
         {/* Formulario de contacto */}
         <form
           onSubmit={handleSubmit}
-          className="bg-bunker-800 rounded-2xl p-8 shadow-lg"
+          className="bg-bunker-100 rounded-2xl p-8 shadow-lg"
         >
           {/* Campo: Nombre */}
           <div className="mb-6">
             <label
               htmlFor="name"
-              className="block text-bunker-50 text-lg font-bold mb-2"
+              className="block text-bunker-800 text-xl font-semibold mb-2"
             >
               Name
             </label>
@@ -93,7 +93,8 @@ const ContactMe = () => {
               name="name"
               value={formData.name}
               onChange={handleChange}
-              className="w-full p-3 rounded-lg border border-bunker-500 bg-bunker-700 text-bunker-50 focus:outline-none focus:ring-2 focus:ring-bunker-500"
+              placeholder="Enter your name"
+              className="w-full p-3 rounded-lg border border-gray-600 bg-gray-200 text-gray-800 focus:outline-none focus:ring-2 focus:ring-bunker-600 transition duration-300"
               required
             />
           </div>
@@ -102,7 +103,7 @@ const ContactMe = () => {
           <div className="mb-6">
             <label
               htmlFor="email"
-              className="block text-bunker-50 text-lg font-bold mb-2"
+              className="block text-bunker-800 text-xl font-semibold mb-2"
             >
               Email
             </label>
@@ -112,7 +113,8 @@ const ContactMe = () => {
               name="email"
               value={formData.email}
               onChange={handleChange}
-              className="w-full p-3 rounded-lg border border-bunker-500 bg-bunker-700 text-bunker-50 focus:outline-none focus:ring-2 focus:ring-bunker-500"
+              placeholder="Enter your email"
+              className="w-full p-3 rounded-lg border border-gray-600 bg-gray-200 text-gray-800 focus:outline-none focus:ring-2 focus:ring-bunker-600 transition duration-300"
               required
             />
           </div>
@@ -121,7 +123,7 @@ const ContactMe = () => {
           <div className="mb-6">
             <label
               htmlFor="subject"
-              className="block text-bunker-50 text-lg font-bold mb-2"
+              className="block text-bunker-800 text-xl font-semibold mb-2"
             >
               Subject
             </label>
@@ -131,7 +133,8 @@ const ContactMe = () => {
               name="subject"
               value={formData.subject}
               onChange={handleChange}
-              className="w-full p-3 rounded-lg border border-bunker-500 bg-bunker-700 text-bunker-50 focus:outline-none focus:ring-2 focus:ring-bunker-500"
+              placeholder="Enter your subject"
+              className="w-full p-3 rounded-lg border border-gray-600 bg-gray-200 text-gray-800 focus:outline-none focus:ring-2 focus:ring-bunker-600 transition duration-300"
               required
             />
           </div>
@@ -140,7 +143,7 @@ const ContactMe = () => {
           <div className="mb-6">
             <label
               htmlFor="message"
-              className="block text-bunker-50 text-lg font-bold mb-2"
+              className="block text-bunker-800 text-xl font-semibold mb-2"
             >
               Message
             </label>
@@ -149,7 +152,8 @@ const ContactMe = () => {
               name="message"
               value={formData.message}
               onChange={handleChange}
-              className="w-full p-3 rounded-lg border border-bunker-500 bg-bunker-700 text-bunker-50 focus:outline-none focus:ring-2 focus:ring-bunker-500 field-sizing-content"
+              placeholder="Enter your message"
+              className="w-full p-3 rounded-lg border border-gray-600 bg-gray-200 text-gray-800 focus:outline-none focus:ring-2 focus:ring-bunker-600 transition duration-300 field-sizing-content"
               rows="5"
               required
             />
@@ -158,7 +162,7 @@ const ContactMe = () => {
           {/* Botón de envío */}
           <button
             type="submit"
-            className="bg-bunker-500 text-bunker-50 font-bold text-lg p-3 rounded-lg w-full hover:bg-bunker-600 active:scale-95 transition-transform transform"
+            className="bg-bunker-600 text-bunker-50 font-semibold text-lg p-3 rounded-lg w-full hover:bg-bunker-700 hover:scale-105 transition duration-300"
           >
             Send Message
           </button>
@@ -170,7 +174,7 @@ const ContactMe = () => {
             href="https://github.com/JoisRosalesDev"
             target="_blank"
             rel="noopener noreferrer"
-            className="p-2 rounded-full bg-gradient-to-br from-gray-700 to-black hover:from-black hover:to-gray-700 hover:scale-110 transition-all"
+            className="p-2 rounded-full bg-gradient-to-br from-gray-700 to-black hover:from-black hover:to-gray-700 hover:scale-125 transition duration-300 shadow-xl"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -245,7 +249,7 @@ const ContactMe = () => {
             href="https://www.linkedin.com/in/jois-rosales-fernández-260baa24b"
             target="_blank"
             rel="noopener noreferrer"
-            className="p-2 rounded-full bg-gradient-to-br from-blue-600 to-blue-900 hover:from-blue-900 hover:to-blue-600 hover:scale-110 transition-all"
+            className="p-2 rounded-full bg-gradient-to-br from-blue-600 to-blue-900 hover:from-blue-900 hover:to-blue-600 hover:scale-125 transition duration-300 shadow-xl"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -306,7 +310,7 @@ const ContactMe = () => {
             href="https://www.instagram.com/joisfrontdev/"
             target="_blank"
             rel="noopener noreferrer"
-            className="p-2 rounded-full bg-gradient-to-br from-pink-500 to-purple-600 hover:from-purple-600 hover:to-pink-500 hover:scale-110 transition-all"
+            className="p-2 rounded-full bg-gradient-to-br from-pink-500 to-purple-600 hover:from-purple-600 hover:to-pink-500 hover:scale-125 transition duration-300 shadow-xl"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

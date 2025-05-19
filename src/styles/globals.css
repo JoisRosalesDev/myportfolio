@@ -12,27 +12,32 @@
   --color-bunker-800: #295661;
   --color-bunker-900: #264953;
   --color-bunker-950: #071013;
+
+  --font-erode: 'Erode';
+  --font-tanker: 'Tanker';
 }
 
 html {
   scroll-behavior: smooth;
 }
 
+@font-face {
+  font-family: 'Erode';
+  src: url('/fonts/Erode-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Tanker';
+  src: url('/fonts/Tanker-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 
 body {
   font-family: 'Roboto', sans-serif;
-}
-
-.primary-button {
-  background: linear-gradient(90deg, var(--color-bunker-600) 0%, var(--color-bunker-700) 35%);
-  border-width: 1px;
-  border-color: #295661;
-}
-
-.primary-button:hover {
-  background: linear-gradient(90deg, var(--color-bunker-700) 0%, var(--color-bunker-800) 35%);
-  border-width: 1px;
-  border-color: var(--color-bunker-900);
-  scale: 1.1;
-  transition: all 0.3s;
 }
